@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: rubik;
+    background-color: #b3d5ffa9;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(https://images.unsplash.com/photo-1710975090671-9cb58989180d?q=80&w=2051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    background-color: #ffffff;
+}
+
+input {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 93%;
+}
+
+
+button{
+    background-color: #ff8030;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-family: rubik;
+    font-size: 20px;
+
+}
+
+form{
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+
+#footer-container{
+    display: flex;
+    background-color: #fff;
+    /* border: 1px solid #000; */
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-around;
+    margin-top: 30px;
+    background-color: #b3d5ffa9;
+    border-radius: 5px;
+}
+
+#contact-details{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+h3{
+    font-size:30px;
+    font-weight: 400;
+}
+
+.contact-internal{
+    display:flex;
+    /* flex-direction:column; */
+    gap:30px;
+}
+
+
+#social {
+    /* text-align: center; */
+    /* background-color: rgb(131, 131, 255); */
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;  
+    width: 100%;
+    /* margin: auto; */
+    /* gap: 50px; */
+  }
+
+  i {
+    /* margin-left: 5px; */
+    font-size: 1.5rem;
+    color:#ff8030;   
+  }
